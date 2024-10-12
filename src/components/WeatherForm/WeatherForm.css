@@ -1,0 +1,27 @@
+.weather-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weather-form input {
+  border-radius: 20px;
+  padding: 10px 10px 10px 15px;
+  font-size: 15px;
+  border: none;
+  /* outline-color: rgb(74, 210, 210); */
+  outline: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  /* color: rgb(74, 70, 70); */
+}
+
+.weather-form button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: rgb(74, 70, 70);
+}

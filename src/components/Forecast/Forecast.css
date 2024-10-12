@@ -1,0 +1,31 @@
+.forecast {
+  text-align: center;
+}
+
+.forecast h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: coral;
+  margin-bottom: 10px;
+}
+
+.forecast-items {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.forecast-item {
+  padding: 10px;
+  border: 1px solid #cbc7c7;
+  border-radius: 12px;
+  background-color: white;
+
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.02) rotate(0deg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
